@@ -1,0 +1,38 @@
+# Authors and Contributors
+
+## Original Author
+**SamuraiSatoshi** - Original creator and maintainer
+- GitHub: [@samuraisatoshi](https://github.com/samuraisatoshi/)
+- Email: samuraisatoshi@cryptoworld.8shield.net
+- Repository: [ML-Model-Converter](https://github.com/samuraisatoshi/ML-Model-Converter)
+
+## AI Assistant Collaboration
+**Claude (Anthropic)** - AI coding assistant
+- Provided architectural guidance and implementation support
+- Helped implement SOLID principles and professional code structure
+- Assisted with documentation and best practices
+
+## Contributors
+*When you contribute to this project, please add your name here:*
+
+<!-- Example format:
+**[Contributor Name]** - Description of contribution
+- GitHub: [@username](https://github.com/username)
+- Contribution: Brief description of what they added/fixed
+-->
+
+---
+
+## How to Contribute
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on contributing to this project.
+
+## Recognition
+This project was developed with the assistance of Claude (Anthropic AI) for:
+- Code architecture and SOLID principles implementation
+- Professional documentation and community features
+- Best practices and modern Python development standards
+
+All human creativity, design decisions, and project vision remain with the original author.
+
+## License
+All contributions are licensed under CC BY-NC 4.0. See [LICENSE](LICENSE) for details.

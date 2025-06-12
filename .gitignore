@@ -1,0 +1,340 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Model files - ALL must be ignored (no exceptions)
+*.pth
+*.pt
+*.h5
+*.keras
+*.pb
+*.onnx
+*.tflite
+*.savedmodel
+*.pkl
+*.joblib
+*.bin
+*.safetensors
+*.model
+*.weights
+
+# Model directories
+models/
+weights/
+checkpoints/
+saved_models/
+
+# Runtime-generated directories (created by the app)
+outputs/
+converted_models/
+logs/
+temp/
+converted/
+cache/
+
+# Application-specific runtime folders
+outputs/converted/
+outputs/temp/
+outputs/logs/
+converted_models/
+temp_models/
+conversion_cache/
+
+# Runtime data and session files
+conversion_history.json
+app_config.yaml
+settings.yaml
+user_settings.json
+session_*.json
+*.session
+
+# Streamlit runtime files
+.streamlit/
+*.streamlit/
+streamlit_cache/
+
+# ML/AI specific
+models/
+data/
+datasets/
+checkpoints/
+wandb/
+mlruns/
+.neptune/
+runs/
+lightning_logs/
+tensorboard_logs/
+
+# ONNX related cache
+.onnx/
+onnx_cache/
+
+# TensorFlow cache and logs
+.tensorflow/
+tf_logs/
+
+# PyTorch cache
+.torch/
+torch_cache/
+
+# Model conversion temporary files
+*.onnx.tmp
+*.pb.tmp
+conversion_*.log
+
+# Generated QR codes and test files
+*_qr.png
+test_qr_generation.py
+
+# Development and publishing scripts (maintainer only)
+publish_to_github.sh
+PUBLISH_STEPS.md
+RELEASE_CHECKLIST.md
+RELEASE_COMMIT_MESSAGE.md
+DONATIONS_README.md
+CLAUDE.md
+MAINTAINER_GUIDE.md
+SECURITY_SUMMARY.md
+
+# CI/CD and automation files (prevent unauthorized workflows)
+.github/workflows/auto_publish*
+.github/workflows/auto_deploy*
+**/auto_publish*
+**/auto_deploy*
+publish_*.sh
+deploy_*.sh
+release_*.sh
+auto_*.sh
+
+# GitHub Actions that could bypass review
+.github/workflows/direct_push*
+.github/workflows/bypass_*
+.github/workflows/auto_merge*
+
+# Deployment and release automation
+scripts/publish*
+scripts/deploy*
+scripts/release*
+scripts/auto_*
+deploy/
+release_automation/
+
+# Maintainer-only configuration
+.env.maintainer
+.maintainer/
+owner_config/
+admin_scripts/
+
+# Configuration files with secrets
+config/secrets.yaml
+config/production.yaml
+.env.local
+.env.production
+
+# Large files that shouldn't be committed
+*.bin
+*.safetensors
+
+# Jupyter notebook outputs
+*.ipynb
+!docs/**/*.ipynb
+!examples/**/*.ipynb
+
+# System and cache files
+*.pyc
+.Python
+*.pid
+.coverage.*
+
+# Node.js (if using for documentation or tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+site/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.swp
+*.swo
+*~
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE specific
+.vscode/settings.json
+.idea/workspace.xml
+.idea/misc.xml
+*.sublime-*
+
+# OS specific
+Thumbs.db
+Desktop.ini
+
+# Memory profiling
+*.prof
+profile_*.txt
+
+# Performance benchmarks
+benchmarks/results/
+*.benchmark
+CLAUDE.md
+DONATIONS_README.md
+RELEASE_CHECKLIST.md
+RELEASE_COMMIT_MESSAGE.md
+publish_to_github.sh
+PUBLISH_STEPS.md
+MAINTAINER_GUIDE.md
