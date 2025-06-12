@@ -311,7 +311,7 @@ python launch_cli.py convert best_model.pth -s 1,3,224,224
 
 ## 👨‍💻 Author
 
-**SamuraiSatoshi** *in collaboration with Claude*
+**SamuraiSatoshi** *in collaboration with Claude Code A.I. Tool*
 - GitHub: [@samuraisatoshi](https://github.com/samuraisatoshi/)
 - Email: samuraisatoshi@cryptoworld.8shield.net
 - Repository: [ML-Model-Converter](https://github.com/samuraisatoshi/ML-Model-Converter)
